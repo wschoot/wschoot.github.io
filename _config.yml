@@ -2,3 +2,4 @@ theme: jekyll-theme-cayman
 title: dnssecured.nl
 description: To DoT or to DoH?
 show_downloads: false
+page.title: dnssecured.nl
