@@ -1,4 +1,5 @@
-theme: jekyll-theme-cayman
+#theme: jekyll-theme-cayman
+remote_theme: "mmistakes/minimal-mistakes@4.15.1"
 title: dnssecured.nl
 description: To DoT or to DoH?
 show_downloads: false
