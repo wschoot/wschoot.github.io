@@ -1,4 +1,4 @@
-remote_theme: "mmistakes/minimal-mistakes@4.15.1"
+remote_theme: "mmistakes/minimal-mistakes"
 title: dnssecured.nl
 description: To DoT or to DoH?
 show_downloads: false
