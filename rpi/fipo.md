@@ -8,6 +8,7 @@ tags:
  - Raspberry Pi
  - snmp
  ---
+ 
 ```bash
 yum install net-snmp
 vim /etc/snmp/snmpd.conf
