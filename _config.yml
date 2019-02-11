@@ -3,3 +3,10 @@ title: dnssecured.nl
 description: To DoT or to DoH?
 show_downloads: false
 page.title: dnssecured.nl
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
