@@ -1,8 +1,63 @@
-remote_theme: "mmistakes/minimal-mistakes"
-title: dnssecured.nl
-description: To DoT or to DoH?
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 show_downloads: false
-page.title: dnssecured.nl
+
+title: "{ dnssecured }"
+title_separator: "|"
+name: "Wouter Schoot"
+email: "wouter@schoot.org"
+#description: >- # this means to ignore newlines until "baseurl:"
+#  A blog about data engineering, web-scraping, data in general, text analysis, text mining,
+#  data for social good purpose, machine learning, autonomous driving
+#  and software development.
+
+baseurl: "" # the subpath of your site, e.g. /blog
+#url: "https://datagoodie.com" # the base hostname & protocol for your site, e.g. http://example.com
+repository: "wschoot/wschoot.github.io"
+
+twitter:
+  username               : &twitter "WouterSchoot"
+facebook:
+  username               : &facebook "wschoot"
+  app_id                 :
+  publisher              :
+
+social:
+  type:  # Person or Organization (defaults to Person)
+  name:  # If the user or organization name differs from the site's name
+  links:
+  - "https://twitter.com/WouterSchoot"
+  - "https://www.facebook.com/wschoot"
+  - "https://www.linkedin.com/in/wouterschoot/"
+  - "https://plus.google.com/+WouterSchoot"
+
+author:
+  name            : "Wouter Schoot"
+  avatar          : "/assets/images/bio-photo.jpg"
+  linkedin        : "wouterschoot"
+  github          : "wschoot"
+  facebook        : *facebook
+  twitter         : *twitter
+  bio             : "Internetgeek, likes music, motorcycles, skiing, sailing, bitcoin, ingress/AR games, android, systema/krav maga, photography, automation and monitoring stuff"
+  email           : "wouter@schoot.org"
+  home            : "/about/"
+
+# Build settings
+markdown: kramdown
+remote_theme: "mmistakes/minimal-mistakes@4.15.1"
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -10,3 +65,66 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      author_profile: true
+      layout: single
+      read_time: false
+      comments: false
+      share: true
+      related: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+teaser: /assets/images/bio-photo.jpg
+
+collections:
+  math:
+    output: true
+    permalink: /:collection/:path/
+
+search: true
+search_full_content: true
+
+paginate: 7 # amount of posts to show
+paginate_path: /page:num/
+
+include: ["_pages"]
+
+category_archive:
+  type: jekyll-archives
+  path: /categories/
+tag_archive:
+  type: jekyll-archives
+  path: /tags/
+jekyll-archives:
+  enabled:
+  - categories
+  - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
+
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
