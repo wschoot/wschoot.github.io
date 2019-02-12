@@ -15,17 +15,16 @@
 # in the templates via {{ site.myvariable }}.
 show_downloads: false
 
-title: "{ dnssecured }"
-title_separator: "|"
+title: "[ dnssecured ]"
+title_separator: "-"
 name: "Wouter Schoot"
 email: "wouter@schoot.org"
-#description: >- # this means to ignore newlines until "baseurl:"
-#  A blog about data engineering, web-scraping, data in general, text analysis, text mining,
-#  data for social good purpose, machine learning, autonomous driving
-#  and software development.
+description: >- # this means to ignore newlines until "baseurl:"
+  A blog about raspberry pi's, linux, virtualisation and automation
+  with puppet and ansible
 
 baseurl: "" # the subpath of your site, e.g. /blog
-#url: "https://datagoodie.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://dnssecured.nl" # the base hostname & protocol for your site, e.g. http://example.com
 repository: "wschoot/wschoot.github.io"
 
 twitter:
@@ -115,16 +114,3 @@ jekyll-archives:
   permalinks:
     category: /categories/:name/
     tag: /tags/:name/
-
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
