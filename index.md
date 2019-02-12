@@ -8,4 +8,4 @@ sidebar:
     - text: |
 sidebar goes here
 ---
-asd
+## Index goes here
