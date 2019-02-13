@@ -67,6 +67,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-paginate
 
 defaults:
   - scope:
