@@ -1,6 +1,6 @@
 main:
 - title: "Blog"
-  url: /
+  url: /blog/
 - title: "About"
   url: /about/
 - title: "Tools"
