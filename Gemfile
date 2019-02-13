@@ -9,6 +9,7 @@ group :jekyll_plugins do
   gem 'jemoji'
   gem 'jekyll-include-cache'
   gem "github-pages"
+  gem "jekyll-paginate"
 end
 
 gem "minimal-mistakes-jekyll"
