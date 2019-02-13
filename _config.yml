@@ -31,8 +31,6 @@ twitter:
   username               : &twitter "WouterSchoot"
 facebook:
   username               : &facebook "wschoot"
-  app_id                 :
-  publisher              :
 
 social:
   type:  # Person or Organization (defaults to Person)
@@ -51,6 +49,11 @@ author:
   instagram       : "wschoot"
   facebook        : *facebook
   twitter         : *twitter
+  pinterest       : wouterschoot
+  lastfm          : wschoot
+  youtube         : wschoot
+  keybase         : ascent
+  steam           : asc366
   bio             : "Internetgeek, likes music, motorcycles, skiing, sailing, bitcoin, ingress/AR games, android, systema/krav maga, photography, automation and monitoring stuff"
   email           : "wouter@schoot.org"
   home            : "/about/"
@@ -97,10 +100,8 @@ include: ["_pages"]
 
 timezone: Europe/Amsterdam
 
-
-permalink: /:categories/:title/
-breadcrumbs: true  # disabled by default
-
+permalink: /blog//:categories/:title/
+breadcrumbs: false  # disabled by default
 
 category_archive:
   type: liquid

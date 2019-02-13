@@ -1,6 +1,6 @@
 ---
 title: Monitoring your Raspberry Pi with SNMP
-permalink: /blog/monitoring-your-raspberry-pi-with-snmp/
+#permalink: /blog/monitoring-your-raspberry-pi-with-snmp/
 #author: "Wouter Schoot"
 
 categories:
