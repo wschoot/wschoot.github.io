@@ -48,6 +48,7 @@ author:
   avatar          : "/assets/images/bio-photo.jpg"
   linkedin        : "wouterschoot"
   github          : "wschoot"
+  instagram       : "wschoot"
   facebook        : *facebook
   twitter         : *twitter
   bio             : "Internetgeek, likes music, motorcycles, skiing, sailing, bitcoin, ingress/AR games, android, systema/krav maga, photography, automation and monitoring stuff"
@@ -79,7 +80,7 @@ defaults:
       read_time: false
       comments: false
       share: true
-      related: true
+      related: false
   - scope:
       path: ""
       type: pages

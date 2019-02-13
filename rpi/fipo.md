@@ -3,7 +3,7 @@ title: 'MONITORING YOUR RASPBERRY PI WITH SNMP'
 date: 2013-07-05
 published: true
 expires: never
-layout: post
+layout: posts
 tags:
  - Raspberry Pi
  - snmp
