@@ -92,7 +92,7 @@ teaser: /assets/images/bio-photo.jpg
 search: true
 search_full_content: true
 paginate_path: /blog/page:num
-#include: ["_pages"]
+include: ["_pages"]
 
 timezone: Europe/Amsterdam
 
