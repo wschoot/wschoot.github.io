@@ -7,7 +7,7 @@ layout: post
 tags:
  - Raspberry Pi
  - snmp
- ---
+---
  
 ```bash
 yum install net-snmp

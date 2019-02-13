@@ -57,8 +57,11 @@ author:
 # Build settings
 markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes@4.15.1"
+#theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: dark
+logo: "/assets/images/masthead.png"
+
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -85,32 +88,38 @@ defaults:
 
 teaser: /assets/images/bio-photo.jpg
 
-collections:
-  math:
-    output: true
-    permalink: /:collection/:path/
-
 search: true
 search_full_content: true
 
-paginate: 7 # amount of posts to show
-paginate_path: /page:num/
-
 include: ["_pages"]
 
+timezone: Europe/Amsterdam
+
+
+permalink: /:categories/:title/
+breadcrumbs: true  # disabled by default
+
+
 category_archive:
-  type: jekyll-archives
+  type: liquid
   path: /categories/
 tag_archive:
-  type: jekyll-archives
+  type: liquid
   path: /tags/
-jekyll-archives:
-  enabled:
-  - categories
-  - tags
-  layouts:
-    category: archive-taxonomy
-    tag: archive-taxonomy
-  permalinks:
-    category: /categories/:name/
-    tag: /tags/:name/
+
+#jekyll-archives:
+#  enabled:
+#  - categories
+#  - tags
+#  layouts:
+#    category: archive-taxonomy
+#    tag: archive-taxonomy
+#  permalinks:
+#    #category: /categories/:name/
+#    #tag: /tags/:name/
+#    year: '/:year/'
+#    month: '/:year/:month/'
+#    day: '/:year/:month/:day/'
+#    tag: '/tag/:name/'
+#    category: '/category/:name/'
+#

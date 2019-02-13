@@ -1,13 +1,18 @@
 ---
-title: "monitoring-your-raspberry-pi-with-snmp"
-permalink: /pi/monitoring-your-raspberry-pi-with-snmp/
-author: "Wouter Schoot"
+title: Monitoring your Raspberry Pi with SNMP
+#permalink: /pi/monitoring-your-raspberry-pi-with-snmp/
+#author: "Wouter Schoot"
 
 categories:
   - pi
 tags:
   - pi
   - snmp
+  - a
+  - b
+  - bc
+  - asd
+  - zxc
 #header:
 #  teaser: /assets/images/math/statistical-sampling/sampling-header.jpg
 #  image: /assets/images/math/statistical-sampling/sampling-header.jpg

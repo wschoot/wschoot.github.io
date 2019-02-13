@@ -4,8 +4,6 @@
 
 layout: home
 author_profile: true
-sidebar:
-    - text: |
-sidebar goes here
+sidebar: sidebar goes here
 ---
 ## Index goes here
