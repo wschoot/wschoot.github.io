@@ -90,8 +90,8 @@ teaser: /assets/images/bio-photo.jpg
 
 search: true
 search_full_content: true
-
-include: ["_pages"]
+paginate_path: /blog/page:num
+#include: ["_pages"]
 
 timezone: Europe/Amsterdam
 
